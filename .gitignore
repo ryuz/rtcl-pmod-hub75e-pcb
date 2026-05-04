@@ -12,6 +12,7 @@ _*
 * *
 
 *.bak
+*.rpt
 sym-lib-table
 
 3dmodel/
