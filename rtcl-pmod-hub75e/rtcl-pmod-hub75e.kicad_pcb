@@ -2587,7 +2587,7 @@
 			(uuid "9f514c15-928b-4131-9232-83a26b0eb084")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/ryuji/OneDrive/Documents/Development/kicad/rtcl-pmod-hub75e/model/HIF3FC-16PA-2.54DSA(71)_CL0616-0163-0-71_3DDrawing_STEP_0001220985S/HIF3FC-16PA-2.54DSA.stp"
+		(model "C:/Users/ryuji/OneDrive/Documents/Development/kicad/rtcl-pmod-hub75e/3dmodel/HIF3FC-16PA-2.54DSA(71)_CL0616-0163-0-71_3DDrawing_STEP_0001220985S/HIF3FC-16PA-2.54DSA.stp"
 			(offset
 				(xyz 0 10 9)
 			)
@@ -2924,7 +2924,7 @@
 			(uuid "9491b681-0a65-4982-a976-9d47ae7567d0")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/ryuji/OneDrive/Documents/Development/kicad/rtcl-pmod-hub75e/model/PH2RA-12-UA.STEP"
+		(model "C:/Users/ryuji/OneDrive/Documents/Development/kicad/rtcl-pmod-hub75e/3dmodel/PH2RA-12-UA.STEP"
 			(offset
 				(xyz -4 -6 2.5)
 			)
