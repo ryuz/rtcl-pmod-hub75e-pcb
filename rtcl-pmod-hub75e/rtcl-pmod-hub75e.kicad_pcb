@@ -213,6 +213,12 @@
 		(path "/9adae238-7290-4bae-87d8-409011660acc")
 		(sheetname "/")
 		(sheetfile "rtcl-pmod-hub75e.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -782,6 +788,12 @@
 		(path "/70851c3e-623f-4466-892c-dd6a93bb3c8f")
 		(sheetname "/")
 		(sheetfile "rtcl-pmod-hub75e.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -2200,10 +2212,31 @@
 				)
 			)
 		)
+		(property "LCSC" "C7430313"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd1bec04-2188-4f2f-8134-319acc32f1dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/f133d145-267a-4590-a5ca-8355f1df53f0")
 		(sheetname "/")
 		(sheetfile "rtcl-pmod-hub75e.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "7" "9" "11" "13" "15" "2" "4" "6" "8" "10" "12" "14"
+					"16"
+				)
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2641,10 +2674,29 @@
 				)
 			)
 		)
+		(property "LCSC" "C124371"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa529471-cb39-437b-97c3-ad9fb5f023ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/f3f8641f-d834-4e13-b806-41bcd5b55ba1")
 		(sheetname "/")
 		(sheetfile "rtcl-pmod-hub75e.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12")
+			)
+		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -11872,8 +11924,8 @@
 				(xy 112.172475 77.9505) (xy 112.312485 77.912984) (xy 112.406501 77.858703) (xy 112.474399 77.842231)
 				(xy 112.540426 77.865083) (xy 112.583617 77.920004) (xy 112.5925 77.966091) (xy 112.5925 78.355277)
 				(xy 112.630636 78.447345) (xy 112.683181 78.49989) (xy 112.716666 78.561213) (xy 112.7195 78.587571)
-				(xy 112.7195 78.910784) (xy 112.743704 78.969218) (xy 112.757636 79.002852) (xy 113.126681 79.371897)
-				(xy 113.197148 79.442364) (xy 113.289217 79.4805) (xy 113.4255 79.4805) (xy 113.492539 79.500185)
+				(xy 112.7195 78.910784) (xy 112.743704 78.969218) (xy 112.757636 79.002852) (xy 113.197148 79.442364)
+				(xy 113.289217 79.4805) (xy 113.388872 79.4805) (xy 113.4255 79.4805) (xy 113.492539 79.500185)
 				(xy 113.538294 79.552989) (xy 113.5495 79.6045) (xy 113.5495 94.144877) (xy 113.529815 94.211916)
 				(xy 113.513181 94.232558) (xy 112.271223 95.474515) (xy 112.2099 95.508) (xy 112.140208 95.503016)
 				(xy 112.084275 95.461144) (xy 112.059858 95.39568) (xy 112.07471 95.327407) (xy 112.08044 95.317943)
