@@ -2216,39 +2216,31 @@
 		(path "/f133d145-267a-4590-a5ca-8355f1df53f0")
 		(sheetname "/")
 		(sheetfile "rtcl-pmod-hub75e.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "3" "5" "7" "9" "11" "13" "15" "2" "4" "6" "8" "10" "12" "14"
-					"16"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -2.6 -10.22)
-			(end -2.6 10.22)
+			(start -4.3 -14)
+			(end -4.3 -2.4)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "d00d13b0-2a58-4540-b35c-3a0c7be079b8")
+			(uuid "14e12ef1-ddaa-47bd-9b3f-5f6f68c60bed")
 		)
 		(fp_line
-			(start -2.6 -10.22)
-			(end 2.6 -10.22)
+			(start -4.3 -14)
+			(end 4.3 -14)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "004ec31b-ba03-4d51-ae0b-783df2025498")
+			(uuid "b7084e4d-a769-4415-9629-d219670e379c")
 		)
 		(fp_line
-			(start -2.6 10.22)
-			(end 2.6 10.22)
+			(start -4.3 2.4)
+			(end -4.3 14)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -2257,28 +2249,68 @@
 			(uuid "b7df6fdf-fd7f-419f-86c7-e840cf53bd32")
 		)
 		(fp_line
-			(start -2.1 -10.2)
-			(end -2.57 -9.73)
-			(stroke
-				(width 0.15)
-				(type default)
-			)
-			(layer "F.SilkS")
-			(uuid "aa2e76a8-d00c-467e-984e-ddf08d336b0d")
-		)
-		(fp_line
-			(start 2.6 -10.22)
-			(end 2.6 10.22)
+			(start -4.3 2.4)
+			(end -2.8 2.4)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "14e12ef1-ddaa-47bd-9b3f-5f6f68c60bed")
+			(uuid "b0955394-df26-4a25-b640-31511a3e4868")
+		)
+		(fp_line
+			(start -3.5 -13.9)
+			(end -4.2 -13.2)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "aa2e76a8-d00c-467e-984e-ddf08d336b0d")
+		)
+		(fp_line
+			(start -2.8 -2.4)
+			(end -4.3 -2.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "eadf7372-d014-49b9-ac24-e2e6b8f8278f")
+		)
+		(fp_line
+			(start -2.8 -2.4)
+			(end -2.8 2.4)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2206ee2a-3f45-4b6e-9bae-3b4cfbee48d6")
+		)
+		(fp_line
+			(start 4.3 -14)
+			(end 4.3 14)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "004ec31b-ba03-4d51-ae0b-783df2025498")
+		)
+		(fp_line
+			(start 4.3 14)
+			(end -4.3 14)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d00d13b0-2a58-4540-b35c-3a0c7be079b8")
 		)
 		(fp_poly
 			(pts
-				(xy -3.612056 -9.4) (xy -3.612056 -8.3) (xy -3.112056 -8.8) (xy -3.112056 -8.9)
+				(xy -5.1 -9.4) (xy -5.1 -8.3) (xy -4.6 -8.8) (xy -4.6 -8.9)
 			)
 			(stroke
 				(width 0.1)
@@ -2289,18 +2321,8 @@
 			(uuid "86b4a684-ffa3-4ee5-973c-11bc40d1b25c")
 		)
 		(fp_line
-			(start -3.07 -10.69)
-			(end -3.07 10.69)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "ed1277bb-7262-4d78-a3f8-4e160a8720b3")
-		)
-		(fp_line
-			(start -3.07 10.69)
-			(end 3.08 10.69)
+			(start -4.6 -14.3)
+			(end -4.6 14.3)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2309,24 +2331,34 @@
 			(uuid "e5ef194b-e714-48cd-8cce-4748eea7d392")
 		)
 		(fp_line
-			(start 3.08 -10.69)
-			(end -3.07 -10.69)
+			(start -4.5 14.3)
+			(end 4.6 14.3)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "2c1ebe64-2556-4fe5-bb8d-1344d2321538")
+			(uuid "ed1277bb-7262-4d78-a3f8-4e160a8720b3")
 		)
 		(fp_line
-			(start 3.08 10.69)
-			(end 3.08 -10.69)
+			(start 4.6 -14.3)
+			(end -4.6 -14.3)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(layer "F.CrtYd")
 			(uuid "a62b4092-5c3c-49f5-b757-c87b4b8af63f")
+		)
+		(fp_line
+			(start 4.6 14.3)
+			(end 4.6 -14.3)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2c1ebe64-2556-4fe5-bb8d-1344d2321538")
 		)
 		(fp_line
 			(start -2.54 -8.89)
@@ -2555,6 +2587,17 @@
 			(uuid "9f514c15-928b-4131-9232-83a26b0eb084")
 		)
 		(embedded_fonts no)
+		(model "C:/Users/ryuji/OneDrive/Documents/Development/kicad/rtcl-pmod-hub75e/model/HIF3FC-16PA-2.54DSA(71)_CL0616-0163-0-71_3DDrawing_STEP_0001220985S/HIF3FC-16PA-2.54DSA.stp"
+			(offset
+				(xyz 0 10 9)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "rtcl-pmod-hub75e:PH_02x06_2.54mm"
 		(layer "F.Cu")
