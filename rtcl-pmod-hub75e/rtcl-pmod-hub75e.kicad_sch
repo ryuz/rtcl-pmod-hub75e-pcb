@@ -5395,7 +5395,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 181.61 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5695,7 +5695,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 111.76 136.398 90)
 			(hide yes)
 			(show_name no)
@@ -5777,7 +5777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 207.01 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5934,7 +5934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 137.16 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6081,7 +6081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 181.61 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -6305,7 +6305,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 130.5052 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6620,7 +6620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 174.9552 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6779,7 +6779,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 174.9552 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7095,7 +7095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
 			(at 137.16 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7397,7 +7397,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 36.5252 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -7501,6 +7501,17 @@
 			)
 		)
 		(property "Description" "Microprocessor Reset (active-low) Circuit, SOT-23"
+			(at 50.8 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C414611"
 			(at 50.8 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7794,7 +7805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 83.82 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -7817,6 +7828,17 @@
 			)
 		)
 		(property "Description" "Dual XOR Gate, Low-Voltage CMOS"
+			(at 83.82 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C507252"
 			(at 83.82 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -7971,7 +7993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 89.8652 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8052,7 +8074,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 36.5252 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8290,7 +8312,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 50.8 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -8323,29 +8345,40 @@
 				)
 			)
 		)
+		(property "LCSC" "C507252"
+			(at 50.8 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
-			(uuid "fe79f7f4-d0ed-4e13-84d3-1b109622a8b8")
+			(uuid "fe79f7f4-d0ed-4e13-84d3-1b109622a8b9")
 		)
 		(pin "5"
-			(uuid "29b5a4c2-2f18-4140-aa98-722d2b291d20")
+			(uuid "29b5a4c2-2f18-4140-aa98-722d2b291d21")
 		)
 		(pin "3"
-			(uuid "ef0acc07-ff8f-4b43-8afe-2bce297c8e99")
+			(uuid "ef0acc07-ff8f-4b43-8afe-2bce297c8e9a")
 		)
 		(pin "1"
-			(uuid "89e06b76-a897-4105-b4fe-10443161da23")
+			(uuid "89e06b76-a897-4105-b4fe-10443161da24")
 		)
 		(pin "8"
-			(uuid "1b4f96b5-86f4-4c9e-9855-9b1e5b2b0849")
+			(uuid "1b4f96b5-86f4-4c9e-9855-9b1e5b2b084a")
 		)
 		(pin "2"
-			(uuid "eb403829-5691-4b28-af72-9aa1b720602d")
+			(uuid "eb403829-5691-4b28-af72-9aa1b720602e")
 		)
 		(pin "7"
-			(uuid "eb66560b-62d7-4f82-936e-ab14e5a55f6a")
+			(uuid "eb66560b-62d7-4f82-936e-ab14e5a55f6b")
 		)
 		(pin "4"
-			(uuid "834ff9d9-a89f-4470-a503-0f7cd1e5ede7")
+			(uuid "834ff9d9-a89f-4470-a503-0f7cd1e5ede8")
 		)
 		(instances
 			(project "rtcl-pmod-hub75e"
@@ -8387,7 +8420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 113.03 67.818 90)
 			(hide yes)
 			(show_name no)
@@ -8702,7 +8735,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 130.5052 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -8784,7 +8817,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
 			(at 207.01 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9016,7 +9049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:VSSOP-8_2.3x2mm_P0.5mm"
 			(at 83.82 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -9039,6 +9072,17 @@
 			)
 		)
 		(property "Description" "Dual XOR Gate, Low-Voltage CMOS"
+			(at 83.82 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C507252"
 			(at 83.82 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -9348,7 +9392,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rtcl-pmod-hub75e:PH_02x08_2.54mm"
 			(at 241.3 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -9469,7 +9513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "rtcl-pmod-hub75e:PH_02x06_2.54mm"
 			(at 52.07 43.18 0)
 			(hide yes)
 			(show_name no)
