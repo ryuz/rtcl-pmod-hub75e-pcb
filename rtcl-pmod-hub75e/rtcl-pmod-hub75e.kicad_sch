@@ -3011,6 +3011,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "min:1.6ns/max:4.7ns"
+		(exclude_from_sim no)
+		(at 80.518 193.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "174b381a-2dfe-42ab-a308-eb495faf4239")
+	)
+	(text ""
+		(exclude_from_sim no)
+		(at 138.684 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b621480-247e-4ef6-9e74-ce2e36bfa879")
+	)
 	(junction
 		(at 189.23 29.21)
 		(diameter 0)
@@ -8735,8 +8755,8 @@
 				)
 			)
 		)
-		(property "Value" "74LVC2G86"
-			(at 85.09 177.8 0)
+		(property "Value" "SN74LVC2G86DCUR"
+			(at 88.392 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9319,7 +9339,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74LVC2G86"
+		(property "Value" "SN74LVC2G86DCUR"
 			(at 57.15 137.1599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10140,8 +10160,8 @@
 				)
 			)
 		)
-		(property "Value" "74LVC2G86"
-			(at 83.566 161.29 0)
+		(property "Value" "SN74LVC2G86DCUR"
+			(at 87.884 161.036 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10483,7 +10503,7 @@
 				)
 			)
 		)
-		(property "Value" "HIF3FC-16PA-2.54DSA(71)"
+		(property "Value" "HUB75E"
 			(at 248.92 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)

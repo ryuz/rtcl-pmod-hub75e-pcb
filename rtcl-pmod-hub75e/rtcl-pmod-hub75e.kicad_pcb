@@ -2175,7 +2175,7 @@
 				)
 			)
 		)
-		(property "Value" "HIF3FC-16PA-2.54DSA(71)"
+		(property "Value" "HUB75E"
 			(at 1.27 21.5 0)
 			(layer "F.Fab")
 			(uuid "8a25f0f3-5046-4508-ac39-1717b7ce5214")
@@ -3574,7 +3574,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC2G86"
+		(property "Value" "SN74LVC2G86DCUR"
 			(at 0 1.95 0)
 			(layer "F.Fab")
 			(uuid "180e1f06-ea50-458f-ba3b-537100a45545")
@@ -3633,7 +3633,7 @@
 			)
 		)
 		(property ki_fp_filters "SSOP* VSSOP*")
-		(path "/a2a2dcd2-c0b0-4f0a-a747-d1af1b08e74f")
+		(path "/caf7cc9c-b6eb-45fb-8b11-dc92c29fbcb2")
 		(sheetname "/")
 		(sheetfile "rtcl-pmod-hub75e.kicad_sch")
 		(units
