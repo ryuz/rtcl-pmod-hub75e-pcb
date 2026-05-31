@@ -10159,6 +10159,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C221829"
+			(at 93.98 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "435f4c23-c38e-4721-8527-2a84fd6eba69")
 		)

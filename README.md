@@ -20,7 +20,7 @@ PMOD コネクタ一個から HUB-75E LED パネルを駆動します。
 
 ## 各種データ
 
-回路図は[こちら](rtcl-pmod-hub75e.pdf)です。
+Ver1 の 回路図は[こちら](rtcl-pmod-hub75e-v1.pdf)です。
 
 
 [KiCAD](https://www.kicad.org/) version 10.0.1 で設計しております。
