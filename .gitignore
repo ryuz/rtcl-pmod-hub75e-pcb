@@ -15,6 +15,7 @@ _*
 *.rpt
 sym-lib-table
 
+model/
 3dmodel/
 gerber/
 position/

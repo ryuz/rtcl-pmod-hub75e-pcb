@@ -2641,6 +2641,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -3068,6 +3258,12 @@
 		(uuid "96692b96-161f-415e-8503-9e46a1521176")
 	)
 	(junction
+		(at 63.5 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "983e2821-8617-4494-8bf6-c71ed05e6175")
+	)
+	(junction
 		(at 137.16 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3102,6 +3298,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa25c0f5-f759-4b17-83a0-a8471bae728a")
+	)
+	(no_connect
+		(at 99.06 96.52)
+		(uuid "7c50cdaf-e503-47f8-9cd2-33dbde11eff3")
 	)
 	(wire
 		(pts
@@ -3515,6 +3715,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 90.17) (xy 72.39 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bbbc4b2-55c9-4dab-aed6-9ee1b0e0be41")
+	)
+	(wire
+		(pts
 			(xy 157.48 60.96) (xy 149.86 60.96)
 		)
 		(stroke
@@ -3765,7 +3975,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 90.17) (xy 72.39 90.17)
+			(xy 58.42 90.17) (xy 63.5 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3825,6 +4035,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 99.06) (xy 78.74 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "549508b9-78c5-4f43-8a0b-57fc281cdaed")
+	)
+	(wire
+		(pts
 			(xy 189.23 149.86) (xy 189.23 152.4)
 		)
 		(stroke
@@ -3832,6 +4052,16 @@
 			(type default)
 		)
 		(uuid "54b51bfd-5af6-4855-be34-137e311e0af3")
+	)
+	(wire
+		(pts
+			(xy 63.5 86.36) (xy 63.5 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "550be4d6-d51b-41c3-95bf-625442ecb7d2")
 	)
 	(wire
 		(pts
@@ -4095,6 +4325,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 101.6) (xy 101.6 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957d9623-eecf-4c06-9692-30e21120ba45")
+	)
+	(wire
+		(pts
 			(xy 64.77 171.45) (xy 64.77 173.99)
 		)
 		(stroke
@@ -4195,6 +4435,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 101.6) (xy 101.6 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a86c1fb2-9b97-4a64-8a17-201bcf83e797")
+	)
+	(wire
+		(pts
 			(xy 137.16 27.94) (xy 137.16 29.21)
 		)
 		(stroke
@@ -4242,6 +4492,16 @@
 			(type default)
 		)
 		(uuid "ac5fd7ca-16d6-4374-84b4-0059dca5a268")
+	)
+	(wire
+		(pts
+			(xy 63.5 73.66) (xy 63.5 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8f76db-0763-4fb2-b395-d16e228707c5")
 	)
 	(wire
 		(pts
@@ -5232,6 +5492,16 @@
 			(justify right bottom)
 		)
 		(uuid "63e9d18a-d99c-4266-b255-6215c3e0ba1c")
+	)
+	(label "RESET"
+		(at 78.74 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "67aa0a8b-3002-4218-b35b-b35ab19804ab")
 	)
 	(label "D1P"
 		(at 157.48 50.8 180)
@@ -8347,8 +8617,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LM809M3-2.93"
-			(at 68.326 100.838 0)
+		(property "Value" "APX803D-29SAG-7"
+			(at 72.39 100.584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8358,7 +8628,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
 			(at 58.42 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8391,7 +8661,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C414611"
+		(property "LCSC" "C460555"
 			(at 50.8 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -8415,6 +8685,85 @@
 			(project "rtcl-pmod-hub75e"
 				(path "/fcdb4d9b-699d-4682-8772-7096538bbed1"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 63.5 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "94952caf-143b-4dfd-bb4a-deea0b769f7e")
+		(property "Reference" "R3"
+			(at 65.532 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 65.532 86.614 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 65.278 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 63.5 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7859b9ed-3a82-49b9-ad3e-5cd336c28494")
+		)
+		(pin "2"
+			(uuid "a5bb33eb-0009-48bc-b7a9-282c82abe344")
+		)
+		(instances
+			(project "rtcl-pmod-hub75e"
+				(path "/fcdb4d9b-699d-4682-8772-7096538bbed1"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -9746,6 +10095,89 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 93.98 99.06 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b586db0c-c5b5-4962-b94f-39399363d0de")
+		(property "Reference" "SW1"
+			(at 93.98 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OS102011MS2QN1"
+			(at 93.98 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "rtcl-pmod-hub75e:SW_OS102011MS2QN1"
+			(at 93.98 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 93.98 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "435f4c23-c38e-4721-8527-2a84fd6eba69")
+		)
+		(pin "1"
+			(uuid "f1e705b7-a9ad-459e-bcb9-e77c2b313f08")
+		)
+		(pin "2"
+			(uuid "b7db8d0b-a767-4e87-871d-7a26b744f898")
+		)
+		(instances
+			(project "rtcl-pmod-hub75e"
+				(path "/fcdb4d9b-699d-4682-8772-7096538bbed1"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 97.79 66.04 90)
 		(unit 1)
@@ -9897,6 +10329,84 @@
 			(project "rtcl-pmod-hub75e"
 				(path "/fcdb4d9b-699d-4682-8772-7096538bbed1"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 101.6 105.41 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0ff0902-4344-476d-a489-29114bff1e7e")
+		(property "Reference" "#PWR033"
+			(at 101.6 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 98.044 107.696 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 101.6 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b69e663-45db-46a5-becc-22d4f3710a2d")
+		)
+		(instances
+			(project "rtcl-pmod-hub75e"
+				(path "/fcdb4d9b-699d-4682-8772-7096538bbed1"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10242,6 +10752,84 @@
 			(project "rtcl-pmod-hub75e"
 				(path "/fcdb4d9b-699d-4682-8772-7096538bbed1"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 63.5 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d43569f0-9a5e-451a-9dc5-3fa7e8677d07")
+		(property "Reference" "#PWR032"
+			(at 63.5 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 63.5 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 63.5 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc995e91-144b-4989-a3d6-47842c486474")
+		)
+		(instances
+			(project "rtcl-pmod-hub75e"
+				(path "/fcdb4d9b-699d-4682-8772-7096538bbed1"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
